@@ -3,6 +3,12 @@
 @{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1 class="display-4">Privacy route</h1>
+    <hr />
+    <div>Host operating system: @Model.OSVersion</div>
+    <div>Website name         : @Model.WebsiteName</div>    
+</div>
 
 <p>Use this page to detail your site's privacy policy.</p>
